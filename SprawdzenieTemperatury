@@ -1,0 +1,27 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.print("Johny mielony :)");
+        int temeperatura = 20;
+        int temp = -20;
+        czyDodatnia(temeperatura);
+        czyDodatnia(temp);
+
+    }
+
+
+   public static void czyDodatnia (int temp){
+        if (temp >= 0){
+            System.out.print("Temperatura: ");
+            System.out.print(temp);
+            System.out.print(" jest dodatnia :) ");
+        }
+        else{
+            System.out.print("Temperatura: ");
+            System.out.print(temp);
+            System.out.print(" nie jest dodatnia :( ");
+
+        }
+    }
+
+}
